@@ -1,7 +1,8 @@
 function heron() {
-    let a = Number(document.getElementById("valor1").value);
-    let b = Number(document.getElementById("valor2").value);
-    let c = Number(document.getElementById("valor3").value);
+    let a, b, c;
+    a = Number(document.getElementById("valor1").value);
+    b = Number(document.getElementById("valor2").value);
+    c = Number(document.getElementById("valor3").value);
 
     if (a > 0 && b > 0 && c > 0) {
     let p = (a + b + c)/2;
