@@ -14,9 +14,9 @@ function heron() {
         alert("Insira valores válidos (positivos e diferentes de 0")
     }
     
-    if (a == b ==  c){
+    if (a == b && b == c){
         document.getElementById("tipo").value = "Equilátero";
-    } else if ( a == b !=  c ||  a != b == c){
+    } else if ( a == b && a!=  c ||  a != b && a == c){
         document.getElementById("tipo").value = "Isosceles";
     } else {
         document.getElementById("tipo").value = "Escaleno";
