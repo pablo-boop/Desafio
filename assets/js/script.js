@@ -22,7 +22,6 @@ function heron() {
             document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (ímpar)`;
             document.getElementById("area").innerHTML = `A área do triângulo é: ${area} (ímpar)`;
         }
-
     }
 
     if (isNaN()) {
