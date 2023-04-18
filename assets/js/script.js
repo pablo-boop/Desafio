@@ -30,4 +30,5 @@ function heron() {
         document.getElementById("tipo").innerHTML = "Escaleno";
     }
 }
+
 }
