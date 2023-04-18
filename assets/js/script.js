@@ -10,8 +10,9 @@ function heron() {
 
     document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c}`;
     document.getElementById("area").innerHTML = `A área do triângulo é: ${area}`;
-    } else {
-        alert("Insira valores válidos (positivos e diferentes de 0")
+    }
+    else {
+        alert("Insira valores válidos (positivos e diferentes de 0");
     }
     
     if (a == b ==  c){
