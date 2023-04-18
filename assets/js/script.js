@@ -24,12 +24,6 @@ function heron() {
         }
     }
 
-    if (isNaN()) {
-        document.getElementById("area").innerHTML = `O triângulo não é válido!`;
-        document.getElementById("perimetro").style.display = "none";
-        document.getElementById("tipo").style.display = "none";
-        
-    }
 
     else {
         alert("Insira valores válidos (positivos e diferentes de 0");
@@ -44,4 +38,5 @@ function heron() {
         document.getElementById("tipo").innerHTML = "O triângulo é do tipo escaleno!";
     }
 }
+
 }
