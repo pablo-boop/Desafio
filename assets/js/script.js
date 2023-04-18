@@ -8,7 +8,8 @@ function heron() {
 
     let area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
 
-    document.getElementById("text1").innerHTML = `O perímetro do triângulo é ${a+b+c} e a área é: ${area}`
+    document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é : ${a+b+c}`;
+    document.getElementById("area").innerHTML = `A área do triângulo é : ${area}`;
     } else {
         alert("Insira valores válidos (positivos e diferentes de 0")
     }
