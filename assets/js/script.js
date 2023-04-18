@@ -14,7 +14,7 @@ function heron() {
     else {
         alert("Insira valores válidos (positivos e diferentes de 0");
     }
-    
+    if (a > 0 && b > 0 && c > 0) {
     if (a == b && b == c){
         document.getElementById("tipo").innerHTML = "Equilátero";
     } else if ( a == b && a!=  c ||  a != b && a == c){
@@ -22,4 +22,5 @@ function heron() {
     } else {
         document.getElementById("tipo").innerHTML = "Escaleno";
     }
+}
 }
