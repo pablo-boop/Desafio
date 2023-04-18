@@ -24,7 +24,6 @@ function heron() {
         }
     }
 
-
     else {
         alert("Insira valores válidos (positivos e diferentes de 0");
     }
