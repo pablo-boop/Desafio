@@ -8,6 +8,10 @@ function heron() {
     let p = (a + b + c)/2;
 
     let area = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
+        if ( a + b <= c || b < a + c || c < a + b) {
+            document.getElementById("area").innerHTML = "triangulo inválido";
+            return; 
+        }
 
         if (area % 2 == 0 && p % 2 == 0) {
             document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (par)`;
