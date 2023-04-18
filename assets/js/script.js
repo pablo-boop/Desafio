@@ -15,10 +15,10 @@ function heron() {
     }
     
     if (a == b && b == c){
-        document.getElementById("tipo").value = "Equilátero";
+        document.getElementById("tipo").innerHTML = "Equilátero";
     } else if ( a == b && a!=  c ||  a != b && a == c){
-        document.getElementById("tipo").value = "Isosceles";
+        document.getElementById("tipo").innerHTML = "Isosceles";
     } else {
-        document.getElementById("tipo").value = "Escaleno";
+        document.getElementById("tipo").innerHTML = "Escaleno";
     }
 }
