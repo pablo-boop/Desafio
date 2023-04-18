@@ -9,8 +9,20 @@ function heron() {
 
     let area = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
 
-    document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c}`;
-    document.getElementById("area").innerHTML = `A área do triângulo é: ${area}`;
+        if (area % 2 == 0 && p % 2 == 0) {
+            document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (par)`;
+            document.getElementById("area").innerHTML = `A área do triângulo é: ${area} (par)`;
+        } else if (area % 2 !== 0 && p % 2 == 0) {
+            document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (par)`;
+            document.getElementById("area").innerHTML = `A área do triângulo é: ${area} (ímpar)`;
+        } else if (area % 2 !== 0 && p % 2 !== 0) {
+            document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (ímpar)`;
+            document.getElementById("area").innerHTML = `A área do triângulo é: ${area} (par)`;
+        } else {
+            document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c} (ímpar)`;
+            document.getElementById("area").innerHTML = `A área do triângulo é: ${area} (ímpar)`;
+        }
+
     }
 
     if (isNaN()) {
