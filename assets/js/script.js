@@ -1,4 +1,4 @@
-function heron () {
+function heron() {
     let a = Number(document.getElementById("").value);
     let b = Number(document.getElementById("").value);
     let c = Number(document.getElementById("").value);
