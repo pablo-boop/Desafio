@@ -12,4 +12,12 @@ function heron() {
     } else {
         alert("Insira valores válidos (positivos e diferentes de 0")
     }
+    
+    if (a == b ==  c){
+        document.getElementById("").value = "equilatero";
+    } else if ( a == b !=  c ||  a != b == c){
+        document.getElementById("").value = "isosceles";
+    } else {
+        document.getElementById("").value = "escaleno";
+    }
 }
