@@ -10,15 +10,16 @@ function heron() {
 
     document.getElementById("perimetro").innerHTML = `O perímetro do triângulo é: ${a+b+c}`;
     document.getElementById("area").innerHTML = `A área do triângulo é: ${area}`;
-    } else {
-        alert("Insira valores válidos (positivos e diferentes de 0")
+    }
+    else {
+        alert("Insira valores válidos (positivos e diferentes de 0");
     }
     
-    if (a == b ==  c){
-        document.getElementById("tipo").innerHTML = "Tipo: Equilátero";
-    } else if ( a == b !=  c ||  a != b == c){
-        document.getElementById("tipo").innerHTML = "Tipo: Isosceles";
+    if (a == b && b == c){
+        document.getElementById("tipo").innerHTML = "Equilátero";
+    } else if ( a == b && a!=  c ||  a != b && a == c){
+        document.getElementById("tipo").innerHTML = "Isosceles";
     } else {
-        document.getElementById("tipo").innerHTML = "Tipo: Escaleno";
+        document.getElementById("tipo").innerHTML = "Escaleno";
     }
 }
