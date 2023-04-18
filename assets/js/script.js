@@ -23,11 +23,11 @@ function heron() {
 
     if (a > 0 && b > 0 && c > 0) {
     if (a == b && b == c){
-        document.getElementById("tipo").innerHTML = "Equilátero";
+        document.getElementById("tipo").innerHTML = "O triângulo é do tipo equilátero!";
     } else if ( a == b && a!=  c ||  a != b && a == c){
-        document.getElementById("tipo").innerHTML = "Isosceles";
+        document.getElementById("tipo").innerHTML = "O triângulo é do tipo isosceles!";
     } else {
-        document.getElementById("tipo").innerHTML = "Escaleno";
+        document.getElementById("tipo").innerHTML = "O triângulo é do tipo escaleno!";
     }
 }
 }
