@@ -3,10 +3,10 @@ function heron() {
     let b = Number(document.getElementById("valor2").value);
     let c = Number(document.getElementById("valor3").value);
 
-    if (a > 0 && b > 0 && c > 0){
-    let p = (a+ b+ c)/2
+    if (a > 0 && b > 0 && c > 0) {
+    let p = (a+ b+ c)/2;
 
-    let area = Math.sqrt(p*(p-a)*(p-b)*(p-c))
+    let area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
 
     document.getElementById("text1").innerHTML = `O perímetro do triângulo é ${a+b+c} e a área é: ${area}`
     } else {
