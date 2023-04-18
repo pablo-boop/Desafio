@@ -4,7 +4,7 @@ function heron() {
     let c = Number(document.getElementById("valor3").value);
 
     if (a > 0 && b > 0 && c > 0) {
-    let p = (a+ b+ c)/2;
+    let p = (a + b + c)/2;
 
     let area = Math.sqrt(p*((p-a)*(p-b)*(p-c)));
 
